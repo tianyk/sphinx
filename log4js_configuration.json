@@ -1,0 +1,23 @@
+{
+    "appenders": [{
+        "type": "console"
+    }, {
+        "type": "file",
+        "filename": "works.log",
+        "category": "works"
+    }, {
+        "type": "file",
+        "filename": "images.log",
+        "category": "images"
+    }, {
+        "type": "file",
+        "filename": "work-images.log",
+        "category": "work-images"
+    }],
+    "levels": {
+        "[all]": "INFO",
+        "category1": "ERROR",
+        "category2": "DEBUG"
+    },
+    "replaceConsole": true
+}
